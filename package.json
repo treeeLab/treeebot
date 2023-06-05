@@ -1,0 +1,38 @@
+{
+  "name": "treeebot",
+  "version": "1.0.0",
+  "description": "just a facebook messenger chatbot written in javascript",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint **.js */**.js src",
+    "start": "node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kaysil/treebot.git"
+  },
+  "keywords": [
+    "facebook",
+    "bot"
+  ],
+  "author": "Kaysil",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/Kaysil/treebot/issues"
+  },
+  "homepage": "https://github.com/Kaysil/treebot#readme",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "chalk": "^4.1.2",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "fb-chat-api": "^10.4.11",
+    "openai": "^3.0.0",
+    "ssh2": "^1.11.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.21.0"
+  }
+}
